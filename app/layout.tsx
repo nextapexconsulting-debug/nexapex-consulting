@@ -20,8 +20,32 @@ export default function RootLayout({
   );
 }
 
-export const metadata = {
-  title: "NexApex Consulting",
+ export const metadata = {
+  title: {
+    default: "NexApex Consulting",
+    template: "%s | NexApex Consulting",
+  },
+
   description:
-    "Enterprise application development, automation and digital transformation consulting. ORACLE APEX, Oracle Application Express. SQL/PLSQ"
+    "NexApex Consulting provides Oracle APEX development, PL/SQL programming, SQL optimization, Oracle Database solutions, REST API integration, ORDS implementation, workflow automation and enterprise application consulting.",
+
+  keywords: [
+    "Oracle APEX",
+    "PLSQL",
+    "PL/SQL",
+    "Oracle Database",
+    "SQL",
+    "ORDS",
+    "REST API",
+	"AI",
+ 	"Generative AI",
+"tutorial",
+"SSO",
+"cloud",
+    "Enterprise Applications",
+    "Workflow Automation",
+    "Digital Transformation",
+    "Dashboard Development",
+    "Oracle Consulting"
+  ]
 };
