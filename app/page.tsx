@@ -12,7 +12,11 @@ export default function HomePage() {
 
       {/* HERO */}
       <section>
-       <div className="container hero-grid">
+        <div
+          className="container hero-grid"
+          
+        >
+          <div>
 
   <div
     style={{
