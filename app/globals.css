@@ -123,6 +123,17 @@ section{
   border:1px solid var(--border);
   font-weight:600;
 }
+.services-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:24px;
+}
+
+@media(max-width:900px){
+  .services-grid{
+    grid-template-columns:1fr;
+  }
+}
 .hero-grid{
   display:grid;
   grid-template-columns:1fr 1fr;

@@ -38,8 +38,12 @@ export default function Navbar() {
           <Link href="/">Home</Link>
           <Link href="/services">Services</Link>
           <Link href="/portfolio">Portfolio</Link>
+		<Link href="/training">Training</Link>
+		<Link href="/blog">Insights & Articles</Link>
+		<Link href="/youtube">Youtube</Link>
           <Link href="/about">About</Link>
           <Link href="/contact">Contact</Link>
+	  
 
           <a
             href="/contact"

@@ -1,5 +1,4 @@
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer"; 
+
 import EnterpriseShowcase from "../components/EnterpriseShowcase";
 import EnterpriseMockup from "../components/EnterpriseMockup";
 
@@ -8,7 +7,7 @@ import PremiumCTA from "../components/PremiumCTA";
 export default function HomePage() {
   return (
     <>
-      <Navbar />
+       
 
       {/* HERO */}
       <section>
@@ -75,7 +74,7 @@ export default function HomePage() {
      <EnterpriseShowcase />
 	   
 		<PremiumCTA />
-      <Footer />
+      
     </>
   );
 }
